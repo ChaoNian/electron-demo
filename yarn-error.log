@@ -1,0 +1,29 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add electron -D
+
+PATH: 
+  /path/to/node/directory/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/path/to/node/directory/bin:/Users/huangxiaohao/Library/pnpm:/usr/local/mongodb/bin:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npmjs.org/electron: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
